@@ -1,0 +1,1 @@
+command="/tmp/aplayweb.sh $SSH_ORIGINAL_COMMAND",no-port-forwarding,no-x11-forwarding,no-agent-forwarding ssh-rsa <key> <email>
