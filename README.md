@@ -1,4 +1,3 @@
-# vacuumScripts
 These scripts are used for 
 1. Make a backup of map and important partition
 2. Play wave file from web
