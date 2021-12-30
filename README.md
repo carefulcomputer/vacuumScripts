@@ -1,12 +1,15 @@
 # vacuumScripts
-to store scripts for dreame d9 pro vaccum
+These scripts are used for 
+1. Make a backup of map and important partition
+2. Play wave file from web
 
-these scripts are to allow executing backup script and voice prompts (wav format) on dreame d9 vaccume.
-These files both reside in /mnt/misc
+So far these scripts have been tested only on a Dreame D9 Pro vacuum. But may work on others (no gurantees)
 
-aplayweb.sh script will be called from your remote server (I use node-red).
+Both of these files reside in /mnt/misc on vacuum
 
-To backup run following command..
+aplayweb.sh script need to be called from your remote server (I use node-red).
+
+To backup, run following command..
 
 ssh -i <sshKeypath> root@<dreame_ip> backup > "<someLocalFolder>/dreameMap-${todayDate}.tar.gz"
   
