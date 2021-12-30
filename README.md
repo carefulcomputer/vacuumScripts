@@ -18,7 +18,7 @@ ssh -i <sshKeypath> root@<dreame_ip> <full URL of wave file>
 
 To install
   1. copy aplayweb.sh to /mnt/misc
-  2. Add line to your /mnt/misc/authorized_keys using template provided in authorized_keys in this repo
+  2. Add line to your /mnt/misc/authorized_keys using template provided in authorized_keys in this repo (you will need to generate a key pair to add. Read any guide to generate ssh key pair on your OS)
   3. Edit /data/_root_postboot.sh and add following line at the end
   
   cp /mnt/misc/aplayweb.sh /tmp/aplayweb.sh
